@@ -9,3 +9,4 @@ dmlp_trained.h5
 yolov3.cfg
 .jpg
 .pki
+pointrend_resnet50.pkl
