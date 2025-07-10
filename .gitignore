@@ -6,4 +6,5 @@
 .csv
 yolov3.weights
 dmlp_trained.h5
+yolov3.cfg
 .jpg
