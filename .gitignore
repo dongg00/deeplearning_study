@@ -15,3 +15,6 @@ mask_rcnn_coco.h5
 annotation.tar
 images.tar
 lists.tar
+stanford_dogs/
+stanford_dogs/*.jpg
+stanford_dogs/**/*.jpg
