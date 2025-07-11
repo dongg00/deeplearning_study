@@ -10,4 +10,8 @@ yolov3.cfg
 .jpg
 .pki
 pointrend_resnet50.pkl
-
+mask_rcnn_coco.h5
+.tar
+annotation.tar
+images.tar
+lists.tar
