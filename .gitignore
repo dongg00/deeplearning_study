@@ -1,20 +1,24 @@
-.h5
-.pt
-.pkl
-.ckpt
-.mp4
-.csv
-yolov3.weights
-dmlp_trained.h5
-yolov3.cfg
-.jpg
-.pki
-pointrend_resnet50.pkl
-mask_rcnn_coco.h5
-.tar
-annotation.tar
-images.tar
-lists.tar
-stanford_dogs/
-stanford_dogs/*.jpg
+# stanford_dogs 안 모든 jpg 무시
 stanford_dogs/**/*.jpg
+
+# 데이터셋 무시
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.pkl
+*.csv
+*.cfg
+*.weights
+# 모델 및 체크포인트 무시
+*.ckpt
+*.pb
+*.pt
+*.onnx
+
+# 캐시파일 무시
+__pycache__/
+*.pyc
+
+*.yolov3.cfg
+*.yolov3.weights
